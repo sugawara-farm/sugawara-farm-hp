@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>菅原アサヒメロン農園 | 北海道から、大地の恵みをお届けします</title>
+  <meta name="description" content="北海道の菅原アサヒメロン農園。赤肉メロン・長芋・牛蒡・米を育てています。土の力を、そのまま食卓へ。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        菅原アサヒメロン農園<span>Asahi Melon Farm / 北海道</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">農園紹介</a></li>
+          <li><a href="#products">商品</a></li>
+          <li><a href="#order">メロン注文</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ヒーロー -->
+  <section class="hero">
+    <p class="hero-catchcopy">土の力を、そのまま食卓へ。</p>
+    <p class="hero-sub">北海道の大地で、メロン・長芋・牛蒡・米を育てています。</p>
+    <a href="#products" class="hero-btn">商品を見る</a>
+  </section>
+
+  <!-- 農園紹介 -->
+  <section id="about">
+    <div class="section-inner">
+      <h2 class="section-title">農園紹介</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            菅原アサヒメロン農園は北海道で、メロン・長芋・牛蒡・米を育てています。
+            化学肥料に頼らず、北海道の豊かな土壌と気候を活かした栽培を心がけています。
+          </p>
+          <p>
+            特に長芋は粘り気が強く、濃厚な味わいが特徴です。
+            一度食べていただいたお客様からは「他の長芋とは全然違う」と喜んでいただいています。
+          </p>
+          <p>
+            赤肉メロンは北海道らしい深い甘みと香り。
+            季節限定でお届けしています。
+          </p>
+        </div>
+        <div class="about-img">
+          <!-- 農園の写真をここに追加してください -->
+          📷 農園の写真（準備中）
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 商品 -->
+  <section id="products">
+    <div class="section-inner">
+      <h2 class="section-title">商品</h2>
+      <div class="products-grid">
+
+        <!-- メロン -->
+        <div class="product-card">
+          <div class="product-img melon">
+            <!-- メロンの写真 -->
+            🍈 写真（準備中）
+          </div>
+          <div class="product-body">
+            <p class="product-name">赤肉メロン</p>
+            <span class="product-season">6月〜9月 季節限定</span>
+            <p class="product-desc">
+              北海道育ちの赤肉メロン。芳醇な香りと深い甘みが特徴です。
+              ご注文はメールフォームにてお受けしています。
+            </p>
+          </div>
+        </div>
+
+        <!-- 長芋 -->
+        <div class="product-card">
+          <div class="product-img nagaimo">
+            <!-- 長芋の写真 -->
+            🌿 写真（準備中）
+          </div>
+          <div class="product-body">
+            <p class="product-name">長芋</p>
+            <span class="product-season">11月〜 オンライン販売予定</span>
+            <p class="product-desc">
+              粘り気が強く、濃厚な味わい。一度食べたらやみつきになると評判の長芋です。
+              今シーズンよりオンライン販売開始予定。
+            </p>
+          </div>
+        </div>
+
+        <!-- 牛蒡 -->
+        <div class="product-card">
+          <div class="product-img gobo">
+            <!-- 牛蒡の写真 -->
+            🌾 写真（準備中）
+          </div>
+          <div class="product-body">
+            <p class="product-name">牛蒡</p>
+            <span class="product-season">秋〜冬</span>
+            <p class="product-desc">
+              北海道の大地でじっくり育てた牛蒡。香りが豊かで、煮物やきんぴらに最適です。
+            </p>
+          </div>
+        </div>
+
+        <!-- 米 -->
+        <div class="product-card">
+          <div class="product-img rice">
+            <!-- 米の写真 -->
+            🌾 写真（準備中）
+          </div>
+          <div class="product-body">
+            <p class="product-name">米</p>
+            <span class="product-season">秋収穫</span>
+            <p class="product-desc">
+              北海道の澄んだ空気と水で育てたお米。もちもちとした食感が自慢です。
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- メロン注文フォーム -->
+  <section id="order">
+    <div class="section-inner">
+      <h2 class="section-title">メロンのご注文</h2>
+      <p class="order-note">
+        メロンはメールフォームにてご注文を受け付けています。<br>
+        お支払いは銀行振り込みとなります。ご注文後に振込先をご案内します。
+      </p>
+
+      <!-- Formspree を使用（無料）。action の「YOUR_FORM_ID」を置き換えてください -->
+      <form class="order-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+        <div class="form-group">
+          <label>お名前<span class="required">必須</span></label>
+          <input type="text" name="name" placeholder="菅原 太郎" required>
+        </div>
+
+        <div class="form-group">
+          <label>メールアドレス<span class="required">必須</span></label>
+          <input type="email" name="email" placeholder="example@mail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label>電話番号</label>
+          <input type="tel" name="phone" placeholder="090-0000-0000">
+        </div>
+
+        <div class="form-group">
+          <label>ご住所<span class="required">必須</span></label>
+          <input type="text" name="address" placeholder="〒000-0000 都道府県市区町村..." required>
+        </div>
+
+        <div class="form-group">
+          <label>ご注文数<span class="required">必須</span></label>
+          <select name="quantity" required>
+            <option value="">選択してください</option>
+            <option value="1個">1個</option>
+            <option value="2個">2個</option>
+            <option value="3個">3個</option>
+            <option value="5個">5個</option>
+            <option value="その他">その他（備考欄にご記入ください）</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>ご希望のお届け時期</label>
+          <input type="text" name="delivery" placeholder="例：6月中旬ごろ">
+        </div>
+
+        <div class="form-group">
+          <label>備考・ご質問</label>
+          <textarea name="message" placeholder="ギフト用途・その他ご要望があればご記入ください"></textarea>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="submit-btn">注文内容を送信する</button>
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- お問い合わせ・アクセス -->
+  <section id="contact">
+    <div class="section-inner">
+      <h2 class="section-title">お問い合わせ・アクセス</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>菅原農園</h3>
+          <p>〒000-0000<br>北海道 ○○市○○町（住所を追加してください）</p>
+          <p>電話：000-000-0000（電話番号を追加してください）</p>
+          <p>メール：<a href="mailto:your@email.com">your@email.com（メールアドレスを追加）</a></p>
+          <br>
+          <p style="color: #999; font-size: 0.85rem;">
+            ※ お問い合わせへの返信は2〜3営業日以内を目安にしております。
+          </p>
+        </div>
+        <div class="map-placeholder">
+          📍 地図（Googleマップを後から埋め込み予定）
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <p>菅原アサヒメロン農園 — 北海道</p>
+    <p>&copy; 2026 Asahi Melon Farm. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
