@@ -191,6 +191,13 @@ section {
   justify-content: center;
   color: var(--text-light);
   font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* ===========================
