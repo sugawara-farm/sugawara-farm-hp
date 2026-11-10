@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>菅原農園 | 北海道安平町の長芋・ごぼう・米を産地直送</title>
-  <meta name="description" content="北海道安平町の菅原農園。粘りの強い長芋、香り豊かなごぼう、お米を産地直送でお届けします。長芋はオンライン注文受付。季節限定の赤肉メロンも。">
+  <meta name="description" content="北海道安平町の菅原農園。粘りの強い長芋、香り豊かなごぼう、お米を産地直送でお届けします。長芋・ごぼう・米はオンラインでご注文いただけます。季節限定の赤肉メロンも。">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,7 +19,7 @@
         <ul>
           <li><a href="#about">農園紹介</a></li>
           <li><a href="#products">商品</a></li>
-          <li><a href="#order">長芋注文</a></li>
+          <li><a href="#order">ご注文</a></li>
           <li><a href="#contact">お問い合わせ</a></li>
         </ul>
       </nav>
@@ -30,7 +30,7 @@
   <section class="hero">
     <p class="hero-catchcopy">土の力を、そのまま食卓へ。</p>
     <p class="hero-sub">北海道の大地で育てた自慢の長芋・ごぼう・米を、ご家庭へ直接お届けします。</p>
-    <a href="#order" class="hero-btn">長芋を注文する</a>
+    <a href="#order" class="hero-btn">注文する</a>
   </section>
 
   <!-- 農園紹介 -->
@@ -90,7 +90,7 @@
             <span class="product-season">秋〜冬</span>
             <p class="product-desc">
               北海道の大地でじっくり育てたごぼう。香りが豊かで、煮物やきんぴらに最適です。
-              オンライン販売を準備中です。ご希望の方はメールにてお問い合わせください。
+              このページの注文フォームからご注文いただけます。
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@
             <span class="product-season">秋収穫</span>
             <p class="product-desc">
               北海道の澄んだ空気と水で育てたお米。もちもちとした食感が自慢です。
-              オンライン販売を準備中です。ご希望の方はメールにてお問い合わせください。
+              このページの注文フォームからご注文いただけます。
             </p>
           </div>
         </div>
@@ -129,15 +129,19 @@
     </div>
   </section>
 
-  <!-- 長芋注文フォーム -->
+  <!-- 注文フォーム -->
   <section id="order">
     <div class="section-inner">
-      <h2 class="section-title">長芋のご注文</h2>
+      <h2 class="section-title">ご注文</h2>
 
       <div class="price-box">
-        <p class="price-item">長芋 1箱（10kg・約10〜14本）</p>
-        <p class="price-value">5,000<span>円（税込）</span></p>
-        <p class="price-note">※ 長芋の本数は大きさによって異なります（10kgあたり約10〜14本が目安です）。<br>※ 送料は別途かかります：北海道内 1,000円／北海道外（沖縄・離島以外） 1,900円<br>※ 沖縄・離島、または複数箱のご注文など送料が変わる場合は、ご注文後の確認メールにてご案内いたします。</p>
+        <ul class="price-list">
+          <li><span class="price-name">長芋 1箱（10kg・約10〜14本）</span><span class="price-amount">5,000<small>円</small></span></li>
+          <li><span class="price-name">ごぼう 5kg</span><span class="price-amount">2,000<small>円</small></span></li>
+          <li><span class="price-name">米 5kg</span><span class="price-amount">3,500<small>円</small></span></li>
+          <li><span class="price-name">米 10kg</span><span class="price-amount">6,000<small>円</small></span></li>
+        </ul>
+        <p class="price-note">※ 価格はすべて税込です。<br>※ 長芋の本数は大きさによって異なります（10kgあたり約10〜14本が目安です）。<br>※ 送料は別途かかります。長芋1箱の場合：北海道内 1,000円／北海道外（沖縄・離島以外） 1,900円<br>※ ごぼう・米の送料、沖縄・離島へのお届け、複数のご注文など送料が変わる場合は、ご注文後の確認メールにてご案内いたします。</p>
       </div>
 
       <div class="order-flow">
@@ -146,7 +150,7 @@
           <li><strong>ご注文</strong><br>下のフォームに必要事項をご記入のうえ送信してください。</li>
           <li><strong>確認メール</strong><br>農園より、合計金額（送料込み）とお振込先口座をメールでご案内します。</li>
           <li><strong>お振り込み</strong><br>ご案内から7日以内に銀行振り込みをお願いします。（振込手数料はお客様負担となります）</li>
-          <li><strong>発送</strong><br>ご入金の確認後、収穫した長芋を発送いたします。長芋の発送は12月以降となります。</li>
+          <li><strong>発送</strong><br>ご入金の確認後、順次発送いたします。長芋の発送は12月以降となります。</li>
         </ol>
       </div>
 
@@ -154,7 +158,7 @@
       <form class="order-form" action="https://formspree.io/f/mzdqyvvo" method="POST">
 
         <!-- 農園に届くメールの件名 -->
-        <input type="hidden" name="_subject" value="【菅原農園】長芋のご注文が届きました">
+        <input type="hidden" name="_subject" value="【菅原農園】ご注文が届きました">
 
         <div class="form-group">
           <label>お名前<span class="required">必須</span></label>
@@ -178,13 +182,45 @@
 
         <div class="form-group">
           <label>ご注文数<span class="required">必須</span></label>
-          <select name="quantity" required>
-            <option value="">選択してください</option>
-            <option value="1箱（10kg・約10〜14本）">1箱（10kg・約10〜14本）</option>
-            <option value="2箱（20kg・約20〜28本）">2箱（20kg・約20〜28本）</option>
-            <option value="3箱（30kg・約30〜42本）">3箱（30kg・約30〜42本）</option>
-            <option value="その他">その他（備考欄にご記入ください）</option>
-          </select>
+          <div class="qty-list">
+            <div class="qty-row">
+              <label for="qty-nagaimo">長芋 1箱（10kg）</label>
+              <select id="qty-nagaimo" name="長芋 1箱（10kg）" class="qty-select">
+              <option value="なし">なし</option>
+              <option value="1箱">1箱</option>
+              <option value="2箱">2箱</option>
+              <option value="3箱">3箱</option>
+              </select>
+            </div>
+            <div class="qty-row">
+              <label for="qty-gobo">ごぼう 5kg</label>
+              <select id="qty-gobo" name="ごぼう 5kg" class="qty-select">
+              <option value="なし">なし</option>
+              <option value="1つ">1つ</option>
+              <option value="2つ">2つ</option>
+              <option value="3つ">3つ</option>
+              </select>
+            </div>
+            <div class="qty-row">
+              <label for="qty-kome5">米 5kg</label>
+              <select id="qty-kome5" name="米 5kg" class="qty-select">
+              <option value="なし">なし</option>
+              <option value="1つ">1つ</option>
+              <option value="2つ">2つ</option>
+              <option value="3つ">3つ</option>
+              </select>
+            </div>
+            <div class="qty-row">
+              <label for="qty-kome10">米 10kg</label>
+              <select id="qty-kome10" name="米 10kg" class="qty-select">
+              <option value="なし">なし</option>
+              <option value="1つ">1つ</option>
+              <option value="2つ">2つ</option>
+              <option value="3つ">3つ</option>
+              </select>
+            </div>
+          </div>
+          <p class="qty-hint">ご希望の商品の数量をお選びください。4つ以上の場合は、備考欄に数量をご記入ください。</p>
         </div>
 
         <div class="form-group">
@@ -234,5 +270,19 @@
     <p>&copy; 2026 Sugawara Farm. All rights reserved.</p>
   </footer>
 
+  <script>
+    // ご注文数がすべて「なし」のまま送信されないようにする
+    (function () {
+      var form = document.querySelector('.order-form');
+      if (!form) return;
+      var selects = form.querySelectorAll('.qty-select');
+      function check() {
+        var any = Array.prototype.some.call(selects, function (s) { return s.value !== 'なし'; });
+        selects[0].setCustomValidity(any ? '' : 'ご注文の商品を1つ以上お選びください');
+      }
+      Array.prototype.forEach.call(selects, function (s) { s.addEventListener('change', check); });
+      check();
+    })();
+  </script>
 </body>
 </html>

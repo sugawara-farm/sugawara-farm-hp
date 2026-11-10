@@ -328,6 +328,65 @@ section {
 .price-note {
   font-size: 0.85rem;
   color: var(--text-light);
+  text-align: left;
+}
+
+.price-list {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.price-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 10px 4px;
+  border-bottom: 1px dashed #cfd8c8;
+  text-align: left;
+}
+
+.price-name {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.price-amount {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--green);
+  white-space: nowrap;
+}
+
+.price-amount small {
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-left: 2px;
+}
+
+/* 注文数（商品ごと） */
+.qty-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.form-group .qty-row label {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.form-group .qty-row select {
+  width: 120px;
+  flex-shrink: 0;
+}
+
+.qty-hint {
+  font-size: 0.85rem;
+  color: var(--text-light);
 }
 
 /* 注文の流れ */
